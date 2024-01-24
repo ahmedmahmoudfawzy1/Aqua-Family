@@ -1,0 +1,398 @@
+{
+  "users": [
+  ],
+  "contact": [
+    
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": " (فلتريشن) فلتر مياه 3 مراحل",
+      "price": "100",
+      "category": "filter",
+      "image" : "assets/image/3S.jpg"
+    },
+    {
+      "id": 2,
+      "name": " (فلتريشن) فلتر مياه 5 مراحل",
+      "price": "100",
+      "category": "filter",
+      "image" : "assets/image/5S.jpg"
+    },
+    {
+      "id": 3,
+      "name": " (فلتريشن) فلتر مياه 7 مراحل",
+      "price": "100",
+      "category": "filter"
+    },
+    {
+      "id": 4,
+      "name": "(RO) فلتر مياه 7 مراحل",
+      "price": "100",
+      "category": "filter",
+      "image": "assets/image/hugeFilter.jpg"
+    },
+    {
+      "id": 5,
+      "name": " (RO)فلتر مياه 8 مراحل  ",
+      "price": "100",
+      "category": "filter",
+      "image": "/assets/image/hugeFilter.jpg"
+    },
+    {
+      "id": 6,
+      "name": "محطة مياه 10 لتر",
+      "price": "100",
+      "category": "huge-filter",
+      "iamge": "/assets/image/produce10L.png"
+    },
+    {
+      "id": 7,
+      "name": "محطة مياه 15 لتر",
+      "price": "100",
+      "category": "huge-filter",
+      "image": "/assets/image/produce15L.png"
+    },
+    {
+      "id": 8,
+      "name": "محطة مياه 20 لتر",
+      "price": "100",
+      "category": "huge-filter",
+      "image":"/assets/image/produce20L.jpg"
+    },
+    {
+      "id": 9,
+      "name": "محطة مياه 25 لتر",
+      "price": "100",
+      "category": "huge-filter",
+      "image": "/assets/image/gproduct.jpg"
+    },
+    {
+      "id": 10,
+      "name": "محطة مياه 30 لتر",
+      "price": "100",
+      "category": "huge-filter"
+    },
+    {
+      "id": 11,
+      "name": "محطة مياه 50 لتر",
+      "price": "100",
+      "category": "huge-filter"
+    },
+    {
+      "id": 12,
+      "name": " شمعه اولي",
+      "price": "100",
+      "category": "wax"
+    },
+    {
+      "id": 13,
+      "name": "شمعة تانية",
+      "price": "100",
+      "category": "wax"
+    },
+    {
+      "id": 14,
+      "name": "شمعة تالته",
+      "price": "100",
+      "category": "wax"
+    },
+    {
+      "id": 15,
+      "name": "الشمعه الرابعه(ممبرين)",
+      "price": "100",
+      "category": "wax"
+    },
+    {
+      "id": 16,
+      "name": "شمعة الخامسه(بوست)",
+      "price": "100",
+      "category": "wax"
+    },
+    {
+      "id": 17,
+      "name": "شمعة السادسه(كالسيد)",
+      "price": "100",
+      "category": "wax"
+    },
+    {
+      "id": 18,
+      "name": "شمعة السابعه(الكالين)",
+      "price": "100",
+      "category": "wax"
+    },
+    {
+      "id": 19,
+      "name": "شمعه تامنه (انفراريد)",
+      "price": "100",
+      "category": "wax"
+    },
+    {
+      "id": 20,
+      "name": "شمعه الاشعه فوق بنفسجيه (UV)",
+      "category": "wax"
+    },
+    {
+      "id": 21,
+      "name": "فلتر شاور",
+      "price": "100",
+      "category": "filter"
+    },
+    {
+      "id": 22,
+      "name": "فلتر جامبو ثلاثي 20 بوصه",
+      "price": 100,
+      "category": "huge-filter"
+    },
+    {
+      "id": 23,
+      "name": "فلتر جامبو ثلاثي",
+      "price": 100,
+      "category": "huge-filter"
+    },
+    {
+      "id": 24,
+      "name": " 150G وحدة",
+      "price": 100,
+      "category": "huge-filter"
+    },
+    {
+      "id": 25,
+      "name": " 300G وحدة",
+      "price": 100,
+      "category": "huge-filter"
+    },
+    {
+      "id": 26,
+      "name": " 600G وحدة",
+      "price": 100,
+      "category": "huge-filter"
+    },
+    {
+      "id": 27,
+      "name": " 1000G وحدة",
+      "price": 100,
+      "category": "huge-filter"
+    },
+    {
+      "id": 28,
+      "name": "فلتر غساله",
+      "price": 100,
+      "category": "huge-filter"
+    },
+    {
+      "id": 29,
+      "name": "فلتر (1 شمعه) 20 بوصه",
+      "price": 100,
+      "category": "huge-filter"
+    },
+    {
+      "id": 30,
+      "name": "فلتر (1 شمعه) جامبو ",
+      "price": 100,
+      "category": "huge-filter"
+    },
+    {
+      "id": 31,
+      "name": "شمعه بولي 20 بوصه",
+      "price": 100,
+      "category": "wax"
+    },
+    {
+      "id": 32,
+      "name": "شمعة كاربون حبيبات 20 بوصه",
+      "price": 100,
+      "category": "wax"
+    },
+    {
+      "id": 33,
+      "name": "شمعه كاربون 20 بوصه",
+      "price": 100,
+      "category": "wax"
+    },
+    {
+      "id": 34,
+      "name": "شمعه بولي جامبو",
+      "price": 100,
+      "category": "wax"
+    },
+    {
+      "id": 35,
+      "name": "شمعه كاربون حبيبات جامبو",
+      "price": 100,
+      "category": "wax"
+    },
+    {
+      "id": 36,
+      "name": "شمعه كاربون جامبو",
+      "price": 100,
+      "category": "wax"
+    },
+    {
+      "id": 37,
+      "name": "محطه فلتريشن 10 بوصه",
+      "price": 100,
+      "category": "huge-filter"
+    },
+    {
+      "id": 37,
+      "name": "محطه فلتريشن 13 بوصه",
+      "price": 100,
+      "category": "huge-filter"
+    },
+    {
+      "id": 38,
+      "name": "هاوسينج ممبرين",
+      "price": 100,
+      "category": "spare-parts"
+    },
+    {
+      "id": 39,
+      "name": "هاوسينج شفاف 10 بوصه",
+      "price": 100,
+      "category": "spare-parts"
+    },
+    {
+      "id": 40,
+      "name": "هاوسينج معتم 10 بوصه",
+      "price": 100,
+      "category": "spare-parts"
+    },
+    {
+      "id": 41,
+      "name": "هاوسينج جامبو 10 بوصه",
+      "price": 100,
+      "category": "spare-parts"
+    },
+    {
+      "id": 42,
+      "name": "هاوسينج 20 بوصه",
+      "price": 100,
+      "category": "spare-parts"
+    },
+    {
+      "id": 43,
+      "name": "3.2G خزان ضغط",
+      "price": 100,
+      "category": "spare-parts"
+    },
+    {
+      "id": 44,
+      "name": "4G خزان ضغط",
+      "price": 100,
+      "category": "spare-parts"
+    },
+    {
+      "id": 45,
+      "name": "5G خزان ضغط",
+      "price": 100,
+      "category": "spare-parts"
+    },
+    {
+      "id": 46,
+      "name": "6G خزان ضغط",
+      "price": 100,
+      "category": "spare-parts"
+    },
+    {
+      "id": 47,
+      "name": "20G خزان ضغط",
+      "price": 100,
+      "category": "spare-parts"
+    },
+    {
+      "id": 48,
+      "name": "60L خزان عادي",
+      "price": 100,
+      "category": "spare-parts"
+    },
+    {
+      "id": 49,
+      "name": "100L خزان عادي",
+      "price": 100,
+      "category": "spare-parts"
+    },
+    {
+      "id": 50,
+      "name": "200L خزان عادي",
+      "price": 100,
+      "category": "spare-parts"
+    },
+    {
+      "id": 51,
+      "name": "500L خزان عادي",
+      "price": 100,
+      "category": "spare-parts"
+    },
+    {
+      "id": 52,
+      "name": "1000L خزان عادي",
+      "price": 100,
+      "category": "spare-parts"
+    },
+    {
+      "id": 53,
+      "name": "2000L خزان عادي",
+      "price": 100,
+      "category": "spare-parts"
+    },
+    {
+      "id": 54,
+      "name": "5000L خزان عادي",
+      "price": 100,
+      "category": "spare-parts"
+    },
+    {
+      "id": 55,
+      "name": "حامل شمعات (براكت) ثلاثي بلاستيك",
+      "price": 100,
+      "category": "spare-parts"
+    },
+    {
+      "id": 56,
+      "name": "RO حامل شمعات (براكت) بلاستيك",
+      "price": 100,
+      "category": "spare-parts"
+    },
+    {
+      "id": 57,
+      "name": "حامل شمعات (براكت) ثلاثي حديد",
+      "price": 100,
+      "category": "spare-parts"
+    },
+    {
+      "id": 56,
+      "name": "RO حامل شمعات (براكت) حديد",
+      "price": 100,
+      "category": "spare-parts"
+    }
+  ],
+
+
+  "categories": [
+     {
+    "name" : "فلاتر منزليه",
+    "id" : 1,
+    "description" : "مجموعه من الفلاتر عاليه الجوده للمنازل والمطاعم والكافيهات",
+    "image" : "assets/image/hugeFilter.jpg"
+    },
+    {
+        "id": 2,
+        "name" : "محطات تحليه مياه",
+        "description": "محطات تحليه مياه للمصانع وللمستشفيات (محطات غسيل كلوي)",
+        "image" : "assets/image/houseFilter.jpg"
+    },
+    {
+        "id" : 3,
+        "name" : "عروض الشمعات",
+        "description": "مجموعه من الشمعات التي يتطلبها الفلتر للصيانه كل فترة ( متنساش تسال علي العروض السنويه)",
+        "image" : "assets/image/waxs.jpg"
+    },
+    {
+        "id" : 4,
+        "name": "(G)منتجات ال",
+        "description": "مش عاارف اكتب اي والله",
+        "image" : "/assets/image/gproduct.jpg"
+    }
+  ]
+}

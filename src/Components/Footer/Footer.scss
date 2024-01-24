@@ -1,0 +1,76 @@
+
+
+.footer {
+    background-color: #183746;
+    color: #fff;
+    width: 100%;
+    direction: rtl;
+    padding: 0 20px;
+    display:flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center ;
+    font-family: 'Cairo', sans-serif;
+}
+
+.about_company p {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    padding: 25px 0;
+}
+.lastSection {
+    width: 100%;
+}
+
+
+.socialmediaIcons ul {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    list-style: none;
+    font-size: 20px;
+    cursor: pointer;    
+}
+.liSocialMedia {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    list-style: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.middelSection {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+
+.middelSection ul li {
+    list-style: none;
+}
+.middelSection ul li:hover {
+    color: #000;
+    cursor: pointer;
+    transition: 500ms;
+}
+
+hr {
+    width: 100%;
+    margin: 30px 0;
+} 
+.middelSection ul {
+    display: flex;
+    flex-flow: column;
+    gap: 15px;
+}
