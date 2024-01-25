@@ -1,12 +1,13 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react'
+import apiLink from '../../Services/api';
 
 export default function Products() {
     const [data, setData] = useState([]);
     const [loading, setLoading] = useState(true);
   
     useEffect (() => {
-      axios.get("http://localhost:3004/products").then((res) => {
+      axios.get(`${apiLink}/products`).then((res) => {
         setData(res.data);
         setLoading(false);
       });

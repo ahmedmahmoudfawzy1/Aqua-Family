@@ -2,10 +2,11 @@ import React from "react";
 import "./ProductCard.scss";
 import { useQuery } from "react-query";
 import axios from "axios";
+import apiLink from "../../Services/api";
 
 export default function PrductCard({prodSlide}) {
   const { data, isLoading } = useQuery("product", () => {
-    return axios.get("http://localhost:3004/products?category=filter?_limit=2");
+    return axios.get(`${apiLink}products?category=filter?_limit=2`);
   });
 
   if (isLoading) {

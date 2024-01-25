@@ -4,9 +4,10 @@ import { useQuery } from "react-query";
 import PrductCard from "../ProductCard/PrductCard";
 import "./SliderHouseFilter.scss";
 import "swiper/css";
+import apiLink from "../../Services/api";
 export default function SliderHouseFilter() {
   const { data, isLoading } = useQuery("productSlide", () => {
-    return axios.get("http://localhost:3004/products?category=filter");
+    return axios.get(`${apiLink}/products?category=filter`);
   });
 
   if (isLoading) {

@@ -4,10 +4,11 @@ import React from "react";
 import { useQuery } from "react-query";
 import "./Categories.scss";
 import { FaAngleDoubleLeft } from "react-icons/fa";
+import apiLink from "../../Services/api";
 
 export default function Categories() {
   const { data, isLoading } = useQuery("categories", () => {
-    return axios.get("http://localhost:3004/categories");
+    return axios.get(`${apiLink}/categories`);
   });
 
   if (isLoading) {
