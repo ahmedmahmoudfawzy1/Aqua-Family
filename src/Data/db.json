@@ -7,34 +7,40 @@
   "products": [
     {
       "id": 1,
-      "name": " (فلتريشن) فلتر مياه 3 مراحل",
+      "name": "فلتر مياه 3 مراحل",
+      "subTitle" : "فلتريشن",
       "price": "100",
       "category": "filter",
       "image" : "assets/image/3S.jpg"
     },
     {
       "id": 2,
-      "name": " (فلتريشن) فلتر مياه 5 مراحل",
+      "name": " فلتر مياه 5 مراحل",
+      "subTitle" : "فلتريشن",
       "price": "100",
       "category": "filter",
       "image" : "assets/image/5S.jpg"
     },
     {
       "id": 3,
-      "name": " (فلتريشن) فلتر مياه 7 مراحل",
+      "name": "فلتر مياه 7 مراحل",
+      "subTitle" : "فلتريشن",
       "price": "100",
-      "category": "filter"
+      "category": "filter",
+      "image": "/assets/image/hugeFilter.jpg"
     },
     {
       "id": 4,
-      "name": "(RO) فلتر مياه 7 مراحل",
+      "name": "فلتر مياه 7 مراحل",
+      "subTitle" : "Ro",
       "price": "100",
       "category": "filter",
-      "image": "assets/image/hugeFilter.jpg"
+      "image": "/assets/image/hugeFilter.jpg"
     },
     {
       "id": 5,
-      "name": " (RO)فلتر مياه 8 مراحل  ",
+      "name": "فلتر مياه 8 مراحل  ",
+      "subTitle" : "Ro",
       "price": "100",
       "category": "filter",
       "image": "/assets/image/hugeFilter.jpg"
@@ -42,6 +48,7 @@
     {
       "id": 6,
       "name": "محطة مياه 10 لتر",
+      "subTitle" : "Ro",
       "price": "100",
       "category": "huge-filter",
       "iamge": "/assets/image/produce10L.png"
@@ -136,7 +143,8 @@
       "id": 21,
       "name": "فلتر شاور",
       "price": "100",
-      "category": "filter"
+      "category": "filter",
+      "image": "/assets/image/shawr.jpg"
     },
     {
       "id": 22,

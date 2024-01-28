@@ -1,12 +1,13 @@
 import axios from "axios";
 import React from "react";
 import { useQuery } from "react-query";
-import PrductCard from "../ProductCard/PrductCard";
+// import PrductCard from "../ProductCard/PrductCard";
 import "./SliderHouseFilter.scss";
 import "swiper/css";
 import apiLink from "../../Services/api";
+import ProductSection from "../ProductSection/ProductSection";
 export default function SliderHouseFilter() {
-  const { data, isLoading } = useQuery("productSlide", () => {
+  const {  isLoading } = useQuery("productSlide", () => {
     return axios.get(`${apiLink}/products?category=filter`);
   });
 
@@ -15,15 +16,11 @@ export default function SliderHouseFilter() {
   }
   return (
     <>
-      <div className="head__lastProduct">
+      {/* <div className="head__lastProduct">
         <h1>اخر المنتجات</h1>
-      </div>
+      </div> */}
       <div className="house__filter">
-        {data?.data.map((prodSlide) => {
-          return(
-            <PrductCard />
-          )
-        })}
+        <ProductSection />
       </div>
     </>
   );

@@ -1,5 +1,3 @@
-import "./App.css";
-
 import { Route, Routes } from "react-router-dom";
 import { QueryClientProvider , QueryClient } from "react-query";
 import Home from "./Page/Home/Home";
