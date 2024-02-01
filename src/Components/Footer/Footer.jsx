@@ -50,7 +50,7 @@ export default function Footer() {
         <div className="lastSection">
           <div className="socialmediaIcons"> 
             <ul>
-              <p> &hearts;  AquaFamily Compony</p>
+              <p> &hearts;  AquaFamily</p>
               <span className="liSocialMedia">
               <li>
                 <FaLinkedinIn /> 
@@ -65,7 +65,7 @@ export default function Footer() {
                 <FaWhatsapp /> 
               </li>
               </span>
-              <p>copyright2023,AquaFamily&copy;</p>
+              <p>copyright2023&copy;</p>
             </ul>
             
           </div>

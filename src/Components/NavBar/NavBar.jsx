@@ -3,13 +3,13 @@ import { Link } from "react-router-dom";
 import { HiOutlineMailOpen } from "react-icons/hi";
 import { FaWhatsapp , FaFacebookF, FaInstagram, FaLinkedinIn , FaList, FaRegHeart} from "react-icons/fa6";
 import { FaShoppingCart } from "react-icons/fa";
-import { CiLogin, CiLogout } from "react-icons/ci";
+// import  {CiLogout } from "react-icons/ci";
 
 import "./NavBar.scss";
 
 
 
-export default function NavBar() {
+export default function NavBar() { 
 
   const [isClicked , setIsClicked] = useState(false)
 
@@ -47,8 +47,8 @@ export default function NavBar() {
         <div className="cart_wish_log">
         <FaRegHeart />
         <FaShoppingCart />
-        <CiLogin />
-        <CiLogout />
+        <Link to='/login' className="login">Login</Link>
+        {/* <Link to='/logout' className="logout"><CiLogout /></Link> */}
         </div>
         <FaList id="faList" onClick={handelClick}/>
       </div>

@@ -1,30 +1,26 @@
 {
-  "users": [
-  ],
-  "contact": [
-    
-  ],
+  "users": [],
   "products": [
     {
       "id": 1,
       "name": "فلتر مياه 3 مراحل",
-      "subTitle" : "فلتريشن",
+      "subTitle": "فلتريشن",
       "price": "100",
       "category": "filter",
-      "image" : "assets/image/3S.jpg"
+      "image": "assets/image/3S.jpg"
     },
     {
       "id": 2,
       "name": " فلتر مياه 5 مراحل",
-      "subTitle" : "فلتريشن",
+      "subTitle": "فلتريشن",
       "price": "100",
       "category": "filter",
-      "image" : "assets/image/5S.jpg"
+      "image": "assets/image/5S.jpg"
     },
     {
       "id": 3,
       "name": "فلتر مياه 7 مراحل",
-      "subTitle" : "فلتريشن",
+      "subTitle": "فلتريشن",
       "price": "100",
       "category": "filter",
       "image": "/assets/image/hugeFilter.jpg"
@@ -32,7 +28,7 @@
     {
       "id": 4,
       "name": "فلتر مياه 7 مراحل",
-      "subTitle" : "Ro",
+      "subTitle": "Ro",
       "price": "100",
       "category": "filter",
       "image": "/assets/image/hugeFilter.jpg"
@@ -40,7 +36,7 @@
     {
       "id": 5,
       "name": "فلتر مياه 8 مراحل  ",
-      "subTitle" : "Ro",
+      "subTitle": "Ro",
       "price": "100",
       "category": "filter",
       "image": "/assets/image/hugeFilter.jpg"
@@ -48,7 +44,7 @@
     {
       "id": 6,
       "name": "محطة مياه 10 لتر",
-      "subTitle" : "Ro",
+      "subTitle": "Ro",
       "price": "100",
       "category": "huge-filter",
       "iamge": "/assets/image/produce10L.png"
@@ -65,7 +61,7 @@
       "name": "محطة مياه 20 لتر",
       "price": "100",
       "category": "huge-filter",
-      "image":"/assets/image/produce20L.jpg"
+      "image": "/assets/image/produce20L.jpg"
     },
     {
       "id": 9,
@@ -375,32 +371,88 @@
       "category": "spare-parts"
     }
   ],
-
-
   "categories": [
-     {
-    "name" : "فلاتر منزليه",
-    "id" : 1,
-    "description" : "مجموعه من الفلاتر عاليه الجوده للمنازل والمطاعم والكافيهات",
-    "image" : "assets/image/hugeFilter.jpg"
+    {
+      "name": "فلاتر منزليه",
+      "id": 1,
+      "description": "مجموعه من الفلاتر عاليه الجوده للمنازل والمطاعم والكافيهات",
+      "image": "assets/image/test3.jpg"
     },
     {
-        "id": 2,
-        "name" : "محطات تحليه مياه",
-        "description": "محطات تحليه مياه للمصانع وللمستشفيات (محطات غسيل كلوي)",
-        "image" : "assets/image/houseFilter.jpg"
+      "id": 2,
+      "name": "محطات تحليه مياه",
+      "description": "محطات تحليه مياه للمصانع وللمستشفيات (محطات غسيل كلوي)",
+      "image": "assets/image/houseFilter.jpg"
     },
     {
-        "id" : 3,
-        "name" : "عروض الشمعات",
-        "description": "مجموعه من الشمعات التي يتطلبها الفلتر للصيانه كل فترة ( متنساش تسال علي العروض السنويه)",
-        "image" : "assets/image/waxs.jpg"
+      "id": 3,
+      "name": "عروض الشمعات",
+      "description": "مجموعه من الشمعات التي يتطلبها الفلتر للصيانه كل فترة ( متنساش تسال علي العروض السنويه)",
+      "image": "assets/image/waxs.jpg"
     },
     {
-        "id" : 4,
-        "name": "(G)منتجات ال",
-        "description": "مش عاارف اكتب اي والله",
-        "image" : "/assets/image/gproduct.jpg"
+      "id": 4,
+      "name": "(G)منتجات ال",
+      "description": "مش عاارف اكتب اي والله",
+      "image": "/assets/image/gproduct.jpg"
+    }
+  ],
+  "contact": [
+    {
+      "id": 1,
+      "name": "Ahmed",
+      "phone": "01000000000",
+      "email": "afaw6076@gmail.com",
+      "address": "Fisal",
+      "message": "Hello"
+    },
+    {
+      "name": "asdfg",
+      "phone": "12345678",
+      "email": "a@gmail.com",
+      "address": "asdfghj",
+      "message": "",
+      "id": 2
+    },
+    {
+      "name": "hjjjgfgdsdzfdxghjk;lkjhbvcx",
+      "phone": "1234567",
+      "email": "",
+      "address": "jhgf",
+      "message": "",
+      "id": 3
+    },
+    {
+      "name": "",
+      "phone": "",
+      "email": "",
+      "address": "",
+      "message": "",
+      "id": 4
+    },
+    {
+      "name": "ssss",
+      "phone": "wwww",
+      "email": "",
+      "address": "ssssss",
+      "message": "",
+      "id": 5
+    },
+    {
+      "name": "",
+      "phone": "",
+      "email": "",
+      "address": "",
+      "message": "",
+      "id": 6
+    },
+    {
+      "name": "",
+      "phone": "",
+      "email": "",
+      "address": "",
+      "message": "",
+      "id": 7
     }
   ]
 }

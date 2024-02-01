@@ -1,10 +1,10 @@
 import React from 'react'
-import NavBar from '../../Components/NavBar/NavBar'
+import SendMessage from '../../Components/SendMessage/SendMessage'
 
 export default function Contact() {
   return (
     <>
-        <NavBar />
+        <SendMessage />
     </>
   )
 }

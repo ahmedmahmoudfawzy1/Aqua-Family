@@ -8,7 +8,7 @@ import apiLink from "../../Services/api";
 
 export default function Categories() {
   const { data, isLoading } = useQuery("categories", () => {
-    return axios.get(`${apiLink}/categories`);
+    return axios.get(`${apiLink}/products`);
   });
 
   if (isLoading) {

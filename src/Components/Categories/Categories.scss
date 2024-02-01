@@ -8,6 +8,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    margin: 35px auto;
 }
 .category__head h1 {
     width: 40%;
@@ -101,7 +102,6 @@
   .backSide,
   .backSide::before {
     background-color: #183746 ;
-    //linear-gradient(160deg, #0093E9 0%, #80D0C7 100%)
   }
   
   .backSide {
