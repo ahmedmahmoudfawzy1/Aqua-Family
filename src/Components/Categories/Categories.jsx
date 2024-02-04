@@ -5,21 +5,21 @@ import { useQuery } from "react-query";
 import "./Categories.scss";
 import { FaAngleDoubleLeft } from "react-icons/fa";
 import apiLink from "../../Services/api";
-
+import Loading from "../Loading/Loading"
 export default function Categories() {
   const { data, isLoading } = useQuery("categories", () => {
-    return axios.get(`${apiLink}/products`);
+    return axios.get(`${apiLink}/categories`);
   });
 
   if (isLoading) {
-    return <h2> Loading....</h2>;
+    return <Loading />
   }
   return (
     <>
       <div className="category__head">
         <div class="loader0">
           <span>الاقسام</span>
-          <span>الاقسام</span>
+          <span>الاقسام</span> 
         </div>
       </div>
       <div className="mainCategory">

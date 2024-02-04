@@ -4,6 +4,7 @@ import { useQuery } from "react-query";
 import axios from "axios";
 import apiLink from "../../Services/api";
 import PrductCard from "../ProductCard/PrductCard";
+import Loading from "../Loading/Loading";
 
 export default function ProductSection() {
   const { data, isLoading } = useQuery("product", () => {
@@ -11,16 +12,13 @@ export default function ProductSection() {
   });
 
   if (isLoading) {
-    return <div className="loader"></div>;
+    return <Loading />;
   }
   return (
     <div className="filter__house">
       {data?.data.map((product) => {
-        return (
-          <PrductCard product={product}/>
-        );
+        return <PrductCard product={product} />;
       })}
     </div>
   );
 }
-
